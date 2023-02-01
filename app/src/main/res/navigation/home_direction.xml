@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/home_direction"
+    app:startDestination="@id/fragmentDirection">
+    <fragment
+        android:id="@+id/fragmentDirection"
+        android:name="com.example.navigatorexample.fragment.FragmentDirection"
+        android:label="FragmentDirection" />
+</navigation>

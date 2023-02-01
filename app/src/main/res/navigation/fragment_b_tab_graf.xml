@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_b_tab_graf"
+    app:startDestination="@id/navigation">
+    <navigation android:id="@+id/navigation"
+        app:startDestination="@id/tab1">
+        <fragment
+            android:id="@+id/tab1"
+            android:name="com.example.navigatorexample.fragment.FragmentTab1"
+            android:label="FragmentC" >
+            <action
+                android:id="@+id/action_tab1_to_fragmentTab1_2"
+                app:destination="@id/fragmentTab1_2" />
+        </fragment>
+        <fragment
+            android:id="@+id/fragmentTab1_2"
+            android:name="com.example.navigatorexample.fragment.FragmentTab1_1"
+            android:label="FragmentTab1_1" />
+    </navigation>
+    <navigation android:id="@+id/navigation2"
+        app:startDestination="@id/tab2">
+        <fragment
+            android:id="@+id/tab2"
+            android:name="com.example.navigatorexample.fragment.FragmentTab2"
+            android:label="FragmentC2" >
+            <action
+                android:id="@+id/action_tab2_to_fragmentTab2_1"
+                app:destination="@id/fragmentTab2_1" />
+        </fragment>
+        <fragment
+            android:id="@+id/fragmentTab2_1"
+            android:name="com.example.navigatorexample.fragment.FragmentTab2_1"
+            android:label="FragmentTab2_1" />
+    </navigation>
+</navigation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/fragmentAMenu"
+        android:icon="@drawable/ic_baseline_account_balance_24"
+        android:title="FragmentA" />
+
+    <item
+        android:id="@+id/fragmentBMenu"
+        android:icon="@drawable/ic_baseline_golf_course_24"
+        android:title="FragmentB" />
+
+</menu>
