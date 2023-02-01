@@ -1,4 +1,4 @@
-package com.example.navigatorexample.fragment
+package com.example.navigatorexample.fragment.pager_fragment
 
 import android.os.Bundle
 import android.view.View

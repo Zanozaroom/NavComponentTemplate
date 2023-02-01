@@ -1,4 +1,4 @@
-package com.example.navigatorexample.fragment
+package com.example.navigatorexample.fragment.pager_fragment
 
 import androidx.fragment.app.Fragment
 import com.example.navigatorexample.R
