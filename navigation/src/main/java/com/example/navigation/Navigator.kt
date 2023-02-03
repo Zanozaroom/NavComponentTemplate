@@ -1,5 +1,6 @@
 package com.example.navigation
 
+import androidx.activity.OnBackPressedCallback
 import androidx.navigation.NavController
 
 class Navigator {
@@ -8,4 +9,5 @@ class Navigator {
     fun navigateToFlow(navigationFlow: NavigationFlow) = when (navigationFlow) {
         BottomMenuFlow -> navController.navigate(MainGraphDirections.actionBMenuFlow())
     }
+
 }
