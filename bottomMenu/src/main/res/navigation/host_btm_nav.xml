@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/bottom_menu_graph"
+    app:startDestination="@id/fragmentDirection">
+    <fragment
+        android:id="@+id/fragmentDirection"
+        android:name="com.example.bottommenu.fragments.FragmentDirection"
+        android:label="FragmentDirection" />
+</navigation>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/feature_one_graph"
+    app:startDestination="@id/fragmentA">
+
+    <fragment
+        android:id="@+id/fragmentA"
+        android:name="com.example.featcherone.fragments.FragmentA"
+        android:label="FragmentA" >
+        <action
+            android:id="@+id/action_fragmentA_to_fragmentA2"
+            app:destination="@id/fragmentA2" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentA2"
+        android:name="com.example.featcherone.fragments.FragmentA2"
+        android:label="FragmentA2" />
+</navigation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="activity_graph" type="id" />
+    <item name="bottom_menu_graph" type="id" />
+    <item name="feature_one_graph" type="id" />
+    <item name="feature_two_graph" type="id"/>
+</resources>

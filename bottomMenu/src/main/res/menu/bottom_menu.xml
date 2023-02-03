@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/feature_one_graph"
+        android:icon="@drawable/ic_baseline_account_balance_24"
+        android:title="FeatureOne" />
+
+    <item
+        android:id="@+id/feature_two_graph"
+        android:icon="@drawable/ic_baseline_golf_course_24"
+        android:title="FeatureTwo" />
+
+</menu>

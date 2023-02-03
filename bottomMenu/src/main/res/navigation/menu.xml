@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/menu"
+    app:startDestination="@id/feature_one_graph">
+    <include app:graph="@navigation/feature_one_graph" />
+    <include app:graph="@navigation/feature_two_graph"/>
+</navigation>

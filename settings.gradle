@@ -14,3 +14,8 @@ dependencyResolutionManagement {
 }
 rootProject.name = "NavigatorExsample"
 include ':app'
+include ':baseui'
+include ':navigation'
+include ':featureOne'
+include ':featureTwo'
+include ':bottomMenu'
